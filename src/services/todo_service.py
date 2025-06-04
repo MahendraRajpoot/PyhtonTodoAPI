@@ -8,6 +8,7 @@ class TodoService:
         self.counter = 0
 
     def get_all(self) -> List[Todo]:
+        print("Hello This is a test")
         return self.todos
 
     def get_by_id(self, todo_id: int) -> Optional[Todo]:
